@@ -1,0 +1,75 @@
+/* reset  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common */
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* header  */
+header {
+    background-color: #E679E6;
+    height: 100px;
+    margin: 20px 0;
+}
+
+/* prima sezione  */
+.first-container {
+    height: 300px;
+    background-color: #E1D67A;
+}
+
+/* seconda sezione  */
+.second-container {
+    height: 400px;
+    background-color: #0086FF;
+    margin: 20px 0 5px 0;
+}
+
+/* colore riga e colonne seconda section del main  */
+.row-col-color {
+    background-color: #ABCFE7;
+}
+
+/* riga  */
+.top-row.col-color{
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+/* colonne  */
+.col-color {
+    background-color: #ABCFE7;
+}
+
+.col-left, .col-center, .col-right {
+    float: left;
+    height: 300px;
+}
+
+.col-left, .col-right {
+    width: 20%;
+}
+
+.col-center {
+    width: calc(60% - 20px);
+    margin: 0 10px;
+}
+
+/* footer  */
+footer {
+    height: 50px;
+    background-color: #8800FE;
+    margin-bottom: 20px;
+}
