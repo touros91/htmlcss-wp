@@ -12,6 +12,10 @@
     clear: both;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .container {
     width: 80%;
     margin: auto;
@@ -19,9 +23,28 @@
 
 /* header  */
 header {
-    background-color: #E679E6;
     height: 100px;
     margin: 20px 0;
+}
+
+.logo {
+    background-image: url("../img/logo.png");
+    width: 135px;
+    height: 50px;
+    border-right: 1px solid lightgray;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 30px;
+}
+
+li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #A3A3A3;
 }
 
 /* prima sezione  */
