@@ -91,7 +91,6 @@ h2 {
 
 /* seconda sezione  */
 .second-container {
-    height: 800px;
     margin: 20px 0 5px 0;
 }
 
@@ -109,11 +108,10 @@ h1 {
     margin-bottom: 20px;
 }
 
-/* colonne  */
+/* tre colonne  */
 
 .col-left, .col-center, .col-right {
     float: left;
-    height: 660px;
 }
 
 .col-left, .col-right {
@@ -164,11 +162,20 @@ h1 {
 #h3-color {
     color: #646464;
     margin-bottom: 10px;
+    font-weight: 500;
 }
 
 /* footer  */
 footer {
-    height: 50px;
-    background-color: #8800FE;
+    height: 50px;    
     margin-bottom: 20px;
+}
+
+.footer-text {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#heart {
+    color: red
 }
