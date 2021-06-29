@@ -38,6 +38,10 @@ body {
     background-color: rgba(0,0,0,0.2);
 }
 
+.bg-center {
+    background-position: center;
+}
+
 /* header  */
 header {
     height: 150px;
@@ -76,7 +80,6 @@ li a {
     height: 500px;
     background-image: url("../img/banner.jpg");
     background-size: cover;
-    background-position: center;
 }
 
 .banner-text {
@@ -137,12 +140,10 @@ div > p {
 
 .col-center-img {
     background-image: url("../img/banner-2.jpg");
-    background-position: center;
 }
 
 .col-right-img {
     background-image: url("../img/img-3.jpg");
-    background-position: center;
 }
 
 div h3 {
