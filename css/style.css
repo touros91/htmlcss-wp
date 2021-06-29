@@ -51,9 +51,14 @@ header {
     margin-bottom: 20px;
 }
 
+/* nav  */
 nav ul li {
     display: inline-block;
     margin-right: 5px;
+}
+
+nav li:last-child {
+    margin-right: 0px;
 }
 
 li a {
@@ -79,10 +84,6 @@ li a {
     left: 20px;
     bottom: 0px;
     color: #F3F1F1;
-}
-
-.banner-text h2 {
-    font-weight: 400;
 }
 
 .span-banner {
